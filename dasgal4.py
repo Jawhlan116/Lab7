@@ -1,0 +1,20 @@
+import math
+a=str(input())
+if(a=="square"):
+    b=float(input())
+    d=(b*b)
+    print("%.3f"%d)
+elif(a=="rectangle"):
+    b=float(input())
+    c=float(input())
+    d=(b*c)
+    print("%.3f"%d)
+elif(a=="circle"):
+    b=float(input())
+    d=math.pi*(b*b)
+    print("%.3f"%d)
+elif(a=="triangle"):
+    b=float(input())
+    c=float(input())
+    d=(b*c)/2
+    print("%.3f"%d)
