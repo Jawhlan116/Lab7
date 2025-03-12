@@ -1,0 +1,96 @@
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~
+$ dir Lalalalab7
+dasgal1.py  dasgal2.py  dasgal3.py  dasgal4.py  dasgal5.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~
+$ cd Lalalalab7
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7
+$ git init
+Initialized empty Git repository in C:/Users/Admin/Lalalalab7/.git/
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dasgal1.py
+        dasgal2.py
+        dasgal3.py
+        dasgal4.py
+        dasgal5.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git add dasgal1.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git commit -m "Uramshuulliin onoo"
+[master (root-commit) f46c811] Uramshuulliin onoo
+ 1 file changed, 15 insertions(+)
+ create mode 100644 dasgal1.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git add dasgal2.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git commit -m "-31-aas 12 hurtelh too"
+[master 15557d9] -31-aas 12 hurtelh too
+ 1 file changed, 4 insertions(+)
+ create mode 100644 dasgal2.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git add dasgal3.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git commit -m "Surguuliin heregsluud"
+[master 4a0d948] Surguuliin heregsluud
+ 1 file changed, 6 insertions(+)
+ create mode 100644 dasgal3.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git add dasgal4.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git commit -m "Dursuudiin talbai"
+[master c937c23] Dursuudiin talbai
+ 1 file changed, 20 insertions(+)
+ create mode 100644 dasgal4.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git add dasgal5.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git commit -m "Secondiin niilber"
+[master c44ffab] Secondiin niilber
+ 1 file changed, 6 insertions(+)
+ create mode 100644 dasgal5.py
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ touch bashcode.txt
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git remote add origin https://github.com/Jawhlan116/Lab7.git
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ git push origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (15/15), 1.50 KiB | 1.50 MiB/s, done.
+Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/Jawhlan116/Lab7.git
+ * [new branch]      master -> master
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$ code bashcode.txt
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/Lalalalab7 (master)
+$
